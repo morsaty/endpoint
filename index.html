@@ -134,7 +134,7 @@
       </ul>
     </nav>
 
-    <header>
+    <header id="section1">
       <div class="container-header">
         <div class="padding-header">
           <div class="flex-header-container">
@@ -156,7 +156,7 @@
       </div>
     </header>
 
-    <section class="gray-background">
+    <section id="section2" class="gray-background">
       <div class="container-header">
         <div class="padding-header">
           <div class="sub-header-container">
@@ -167,17 +167,17 @@
             </p>
             <div class="sub-header-flex">
               <div class="sub-header-col">
-                <h3 class="sub-header-h3_col style-effect">8/10</h3>
+                <h3 class="sub-header-h3_col style-effect"><span class="value" akhi="8">1</span>/<span class="value" akhi="10">2</span></h3>
                 <p class="sub-header-p_col style-effect">customers would recommend Endpoint</p>
                 </div>
                 <div class="separator"></div>
                 <div class="sub-header-col">
-                  <h3 class="sub-header-h3_col style-effect">350+</h3>
+                  <h3 class="sub-header-h3_col style-effect"><span class="value2" akhi2="350">65</span>+</h3>
                   <p class="sub-header-p_col style-effect">employees dedicated to your closing experience</p>
                   </div>
                   <div class="separator"></div>
                   <div class="sub-header-col">
-                    <h3 class="sub-header-h3_col style-effect">20%</h3>
+                    <h3 class="sub-header-h3_col style-effect"><span class="value" akhi="20">10</span>%</h3>
                     <p class="sub-header-p_col style-effect">average customer time savings during the closing process</p>
                     </div>
               </div>
@@ -194,19 +194,19 @@
             <div class="who-we-help-container">
               <div class="wwh-col wwh-padding-col">
                 <h1 class="wwh-h1 style-effect">Who we help</h1>
-                <a class="a-wwh" href="">Buyers & sellers</a>
-                <a class="a-wwh" href="">&nbsp</a>
-                <a class="a-wwh" href="">Real estate professionals</a>
-                <a class="a-wwh" href="">&nbsp</a>
-                <a class="a-wwh" href="">Proptech</a>
-                <a class="a-wwh" href="">&nbsp</a>
-                <a class="a-wwh" href="">Lenders</a>
-                <a class="a-wwh" href="">&nbsp</a>
-                <a class="a-wwh" href="">Investors</a>
+                <a id="js-a-wwh1" class="a-wwh" href="#" onclick="return false;">Buyers & sellers</a>
+                <a class="a-wwh" href="#">&nbsp</a>
+                <a id="div" class="a-wwh" href="#" onclick="return false;">Real estate professionals</a>
+                <a class="a-wwh" href="#">&nbsp</a>
+                <a id="js-a-wwh2" class="a-wwh" href="#" onclick="return false;">Proptech</a>
+                <a class="a-wwh" href="#">&nbsp</a>
+                <a id="js-a-wwh3" class="a-wwh" href="#" onclick="return false;">Lenders</a>
+                <a class="a-wwh" href="#">&nbsp</a>
+                <a id="js-a-wwh4" class="a-wwh" href="#" onclick="return false;">Investors</a>
               </div>
               <div class="wwh-col"><img class="wwh-image" src="/images/BuyersSellers.webp" alt="Buyers & Sellers">
                 <div class="wwh-image-description">
-                  <p class="wwh-image-description-p style-effect">Simplify the last step of your transaction.</p>
+                  <p id="replace-me" class="wwh-image-description-p style-effect">Simplify the last step of your transaction.</p>
                   <a class="wwh-image-description-a style-effect" href="">Read more<i class="fa-solid fa-angle-right"></i></a>
                 </div>
               </div>
@@ -405,6 +405,9 @@
         </div>
       </div>
     </footer>
-    <script src="/scripts/scripts.js"></script>
+    <script src="/scripts/opacityHeader.js"></script>
+    <script src="/scripts/counter.js"></script>
+    <script src="/scripts/changingImages.js"></script>
+    <script src="/scripts/divSlider.js"></script>
   </body>
 </html>
